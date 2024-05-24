@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: orangered;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+.container {
+  color: orangered;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: rgb(255, 129, 2);
+  color: #ffffff;
+  border: none;
+  transition: 0.7s;
+}
+
+button:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
+
+#displayBox {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e9ecef;
+  
+}
+.t{
+  display: flex;
+  justify-content: center;
+  gap: 99px;
+ 
+}
+
+hr {
+  border: none; /* Remove default border */
+  height: 2px; /* Set line height */
+  background-color: rgb(244, 180, 61); /* Set background color to grey */
+}
+
+.c{
+  border: 1px;
+}
+
+@media (max-width: 768px){
+  body {
+    font-family: Arial, sans-serif;
+    background-color: orangered;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 20px;
+  }
+
+  .container {
+    color: orangered;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+
+  .t{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+   
+  }
+}

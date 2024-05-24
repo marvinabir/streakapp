@@ -1,0 +1,18 @@
+{
+  "name": "marvo-api",
+  "version": "1.0.0",
+  "description": "streakApp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server":"json-server --watch db.json --port 3000"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  
+  "dependencies": {
+    "json-server": "^1.0.0-beta.0"
+  }
+}

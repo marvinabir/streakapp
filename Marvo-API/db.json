@@ -1,0 +1,46 @@
+{
+  "streaks": [
+    {
+      "id": "2f6c",
+      "stopDate": "2024-05-29",
+      "activity": "enough sleep",
+      "days": 5
+    },
+    {
+      "id": "85b1",
+      "stopDate": "2024-05-29",
+      "activity": "enough sleep",
+      "days": 5
+    },
+    {
+      "id": "af09",
+      "stopDate": "2024-05-29",
+      "activity": "taking walks",
+      "days": 5
+    },
+    {
+      "id": "54cb",
+      "stopDate": "2024-05-29",
+      "activity": "cycling",
+      "days": 5
+    },
+    {
+      "id": "bb48",
+      "stopDate": "2024-05-20",
+      "activity": "healthy eating",
+      "days": -4
+    },
+    {
+      "id": "b15e",
+      "stopDate": "2024-05-29",
+      "activity": "cycling",
+      "days": -4
+    },
+    {
+      "id": "88f3",
+      "stopDate": "2024-05-30",
+      "activity": "cycling",
+      "days": -5
+    }
+  ]
+}

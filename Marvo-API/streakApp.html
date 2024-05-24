@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Streak Counter</title>
+    <link rel="stylesheet" href="streakApp.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Streak Counter</h1>
+        <form id="streakForm">
+            <label for="stopDate">Start / Stop Date:</label>
+            <input type="date" id="stopDate" name="stopDate" required>
+            
+            <label for="activity">Select Activity:</label>
+            <select id="activity" name="activity" required>
+                <option value="cycling">Cycling</option>
+                <option value="smoking">Smoking ganja</option>
+                <option value="healthy eating">Healthy Eating</option>
+                <option value="enough sleep">Enough Sleep</option>
+                <option value="taking walks">Taking Walks</option>
+            </select>
+            
+            <button type="submit">Track</button>
+        </form>
+        <div id="displayBox">
+            
+    </div>
+    
+    <script src="../dist/strek.js"></script>
+</body>
+</html>
